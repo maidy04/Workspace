@@ -1,0 +1,107 @@
+body {
+    background: #80abfc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff0062;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+  background: #80abfc;
+  border-collapse: collapse;
+  color: #ffff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+td {
+  padding: 30px 50px;
+  background: #80abfc;
+}
+
+.titulo-tabla {
+  border-right: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+#Morado {
+    background-color: #633da0;
+    color: #f8f7f8;
+}
+#Azul {
+    background-color: #3615ac42;
+    color: #f8f7f8d5;
+}
+#Amarillo {
+    background-color: #b8d44f;
+    color: #f7faeb;
+}
+#Rosado {
+    background-color: #9c599c;
+    color: #f1dfe6;
+}
+#Celeste {
+    background-color: #50d0da;
+    color: #ebf8f8;
+}
+#Gris {
+    background-color: #525852ad;
+    color: #e8fcecad;
+}
+#Menta{
+    background-color: #7bbe97;
+    color: #d3dfd7;
+}
+#Lima{
+    background-color: #4bb376;
+    color: #d3dfd7;
+}
+#Rojo {
+    background-color: #e90e0e;
+    color: #beffbe;
+}
+#Naranja {
+    background-color: #be7724;
+    color: #beffbe;
+}
+#Purpura {
+    background-color: #63096b;
+    color: #fcf5fb;
+}
+#Beige {
+    background-color: #c4d1a1;
+    color: #0c0c0c;
+}
+#Negro {
+    background-color: #111111;
+    color: #f4f7f4;
+}
+#Blanco {
+    background-color: #fcf8f8;
+    color: #0d0e0d;
+
+}
+#Magenta {
+    background-color: #ad0b8a;
+    color: #fffefe;
+}
+#Turquesa{
+    background-color: #385b5f;
+    color: #fcfbfb;
+}
+
+    
+  

@@ -1,0 +1,24 @@
+h1 {
+    color: gray;
+    padding: 10px;
+}
+
+/* Primer h1 con id y color azul */
+#primer-titulo {
+    color: blue;
+}
+
+/* Clase para los demás h1 con fondo pastel */
+.titulo-secundario {
+    background-color: #f9e79f; /* Amarillo pastel */
+}
+
+/* Color de fondo para todos los párrafos */
+p {
+    background-color: #d6eaf8; /* Azul pastel */
+    padding: 8px;
+    border-radius: 5px;
+    max-width: 700px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}

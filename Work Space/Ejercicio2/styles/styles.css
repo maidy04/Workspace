@@ -1,0 +1,108 @@
+table {
+  width: 80%;
+  margin: 50px auto;
+  border-collapse: separate;  /* importante para separar celdas */
+  border-spacing: 15px 15px;  /* separación horizontal y vertical */
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Estilo general de celdas */
+td {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+  vertical-align: middle;
+  border-radius: 8px;
+  /* No margin aquí porque usamos border-spacing en tabla */
+}
+
+/* Alegría */
+#alegria {
+  background-color: #FFF59D;
+  color: #e08b0c;
+  width: 130px;
+  height: 80px;
+  border: 3px solid #FDD835;
+}
+
+/* Ira */
+#ira {
+  background-color: #EF9A9A;
+  color: #C62828;
+  width: 120px;
+  height: 90px;
+  border: 3px solid #D32F2F;
+}
+
+/* Tristeza */
+#tristeza {
+  background-color: #90CAF9;
+  color: #1565C0;
+  width: 125px;
+  height: 90px;
+  border: 3px solid #1976D2;
+}
+
+/* Ansiedad */
+#ansiedad {
+  background-color: #bd844f;
+  color: #853e04;
+  width: 120px;
+  height: 80px;
+  border: 3px solid #a36802;
+}
+
+/* Temor */
+#temor {
+  background-color: #CE93D8;
+  color: #6A1B9A;
+  width: 110px;
+  height: 90px;
+  border: 3px solid #8E24AA;
+}
+
+/* Desagrado */
+#desagrado {
+  background-color: #BCAAA4;
+  color: #4E342E;
+  width: 140px;
+  height: 80px;
+  border: 3px solid #795548;
+}
+
+/* Enamorada */
+#enamorada {
+  background-color: #F8BBD0;
+  color: #C2185B;
+  width: 130px;
+  height: 90px;
+  border: 3px solid #E91E63;
+}
+
+/* Estrés */
+#estres {
+  background-color: #FFCCBC;
+  color: #D84315;
+  width: 120px;
+  height: 85px;
+  border: 3px solid #FF5722;
+}
+
+/* Soledad */
+#soledad {
+  background-color: #B0BEC5;
+  color: #37474F;
+  width: 135px;
+  height: 90px;
+  border: 3px solid #607D8B;
+}
+
+/* Hover común */
+td:hover {
+  background-color: #FFF176;
+  color: #000;
+  cursor: pointer;
+}

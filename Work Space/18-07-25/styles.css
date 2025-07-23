@@ -1,0 +1,17 @@
+.contenedor{
+    display: grid;
+    /* las columnas que tienen nuestro grid */
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    /* las filas del grid */
+    grid-template-rows: 40px 200px 40px;
+}
+.item1 { /* iria de la primera a la cuarta columna */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(110, 136, 100);
+}
+.item2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(172, 86, 165);
+}

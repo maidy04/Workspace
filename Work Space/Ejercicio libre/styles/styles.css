@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #c443b2;
+}
+
+.cuadro1, .cuadro2 {
+  display: inline-block;
+  width: 22%;
+  height: 20%;
+  margin: 1%;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  border-radius: 10px;
+}
+
+.cuadro1 {
+  background-color: #d0e7ff;
+  color: #3269a0;
+  border: 2px solid #89a7c5;
+}
+
+.cuadro2 {
+  background-color: #ffe0b2;
+  color: #e049bb;
+  border: 2px solid #9c7ba0;
+}
+

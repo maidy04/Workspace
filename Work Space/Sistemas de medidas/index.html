@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sistemas de Medidas en CSS</title>
+    <style>
+        /* Color gris para todos los h1 */
+        h1 {
+            color: gray;
+            padding: 10px;
+        }
+
+        /* Primer h1 con id y color azul */
+        #primer-titulo {
+            color: blue;
+        }
+
+        /* Clase para los demás h1 con fondo pastel */
+        .titulo-secundario {
+            background-color: #f9e79f; /* Amarillo pastel */
+        }
+
+        /* Color de fondo para todos los párrafos */
+        p {
+            background-color: #d6eaf8; /* Azul pastel */
+            padding: 8px;
+            border-radius: 5px;
+            max-width: 700px;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="primer-titulo">Medidas Absolutas en CSS</h1>
+    <p>Las medidas absolutas son unidades fijas que no cambian según el contexto. Ejemplos comunes son <code>px</code>, <code>cm</code>, y <code>in</code>.</p>
+
+    <h1 class="titulo-secundario">Medidas Relativas en CSS</h1>
+    <p>Las medidas relativas dependen de otros valores, como el tamaño de fuente del padre o el tamaño de la ventana. Ejemplos son <code>em</code>, <code>rem</code>, <code>%</code>, <code>vw</code>, y <code>vh</code>.</p>
+
+    <h1 class="titulo-secundario">Unidades Especiales en CSS</h1>
+    <p>Existen unidades especiales como <code>ch</code> para el ancho del carácter "0", <code>ex</code> para la altura de la letra "x" y <code>fr</code> para fracciones en grids CSS.</p>
+
+</body>
+</html>

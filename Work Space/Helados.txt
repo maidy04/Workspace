@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sabores de Helado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            color: #333;
+            margin: 20px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1 {
+            color: #d6336c;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #a0284f;
+            margin-top: 40px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(214, 51, 108, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Sabores de Helado</h1>
+
+    <section>
+        <h2>Helado de Chocolate</h2>
+        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80" alt="Helado de chocolate" />
+        <p>
+            El helado de chocolate es uno de los sabores más populares y queridos en todo el mundo. Su textura cremosa y su sabor intenso a cacao puro hacen que cada cucharada sea una experiencia deliciosa y reconfortante. Este sabor puede variar desde un chocolate oscuro y amargo hasta uno más dulce y suave, dependiendo del tipo de cacao y de los ingredientes usados.
+        </p>
+        <p>
+            Además, el helado de chocolate combina perfectamente con una amplia variedad de toppings, desde nueces crocantes hasta frutas frescas o sirope de caramelo. Es un sabor que nunca pasa de moda y que siempre alegra cualquier ocasión, ya sea en verano o invierno.
+        </p>
+    </section>
+
+    <section>
+        <h2>Helado de Fresa</h2>
+        <img src="https://images.unsplash.com/photo-1505253210343-8501edb00b17?auto=format&fit=crop&w=600&q=80" alt="Helado de fresa" />
+        <p>
+            El helado de fresa destaca por su frescura y dulzura natural, gracias al uso de fresas frescas y maduras en su elaboración. Es un sabor ligero y refrescante, ideal para quienes buscan un postre dulce pero no demasiado pesado. Su color rosado y su aroma frutal hacen que sea muy apetecible a la vista y al gusto.
+        </p>
+        <p>
+            Este helado suele disfrutarse mucho en primavera y verano, y es común encontrarlo acompañado de trozos de frutas o con una base de yogur para hacerlo aún más saludable. Su sabor balancea perfectamente entre dulce y ácido, lo que lo convierte en una opción favorita para niños y adultos por igual.
+        </p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to right, #a86b9e, #bb638c);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-inner  {
+    width: 500px;
+    height: 500px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;  
+  align-items: center;        
+  height: 100vh;              
+  background-color: #ad6db6;  
+  padding: 20px;             
+  box-sizing: border-box;
+}
+

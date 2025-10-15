@@ -1,0 +1,43 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.container-auth {
+    margin: 10px;
+    gap: 2rem;
+}
+
+.title {
+    text-align: center;
+}
+
+form {
+    width: 350px;
+    height: auto;
+    background: #136a8a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 15px;
+    justify-content: center;
+    height: 270px;
+    margin: auto;
+    align-items: center;
+    color: #fff;
+}
+input {
+    width: 98%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.continuar-btn {
+    height: 2rem;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}

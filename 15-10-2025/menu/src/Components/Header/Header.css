@@ -1,0 +1,60 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    margin: 0;
+    text-align: center;
+  background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.title {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container-nav {
+    display: flex;
+    gap: 5rem;
+   
+}
+
+.container-login {
+    gap: 2rem;
+}
+
+.Home, .About-us, .login, .register  {
+    text-decoration: none;
+    padding: 10px;
+
+    color: #fff;
+
+}
+.Home:hover, .About-us:hover, .login:hover, .register:hover  {
+    text-decoration: none;
+    padding: 10px;
+    color: #020202;
+    background: #c23cb7;
+    border-radius: 10px;
+
+}
+
+.login, .register {
+    background: #f00687;
+    color: #fff;
+    margin-right: 10px;
+    border-radius: 10px;
+}

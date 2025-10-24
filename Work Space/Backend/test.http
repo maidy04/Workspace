@@ -1,0 +1,6 @@
+//llamar todos los estudiates 
+GET http://localhost:3000/api/estudiantes
+
+//llamar un solo estudiante donde el numero
+// es el documento del estudiante
+GET http://localhost:3000/api/estudiantes/100004
